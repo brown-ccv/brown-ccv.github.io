@@ -1,0 +1,13 @@
+<div class="d-flex vh-100 hero-container">
+
+  <div class="d-flex flex-column hero-center typewriter">
+    <h1 class="display-1 display">{{ .Site.Params.title }}</h1>
+    <h2 class="subtitle"><i><span id="typewriter"></span></i></h2>
+    <div class="hero-bottom">
+      {{ range .Site.Params.hero}}
+      <p>{{ . }}</p>
+      {{ end }}
+    <div>
+  </div>
+
+</div>

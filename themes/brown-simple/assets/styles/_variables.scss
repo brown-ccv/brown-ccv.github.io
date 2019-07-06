@@ -1,0 +1,32 @@
+// Overrides Bootstrap Colors
+$blue:    #003C71;
+$red:     #C00404;
+$yellow:  #FFC72C;
+$green:   #00B398;
+$cyan:    #59CBE8;
+$gray-600: #98A4AE;
+
+// Additional Brown University Theme Colors
+$brown: #4E3629;
+$beige: #EFECE5;
+$sand: #CCC6B8;
+$light-brown: #A79A94;
+$medium-brown: #745D54;
+$dark-brown: #4E3629;
+$brown-100: #A79A94;
+$brown-200: #745D54;
+
+$theme-colors: (
+  "brown": $brown,
+  "beige": $beige,
+  "sand": $sand,
+  "light-brown": $light-brown,
+  "medium-brown": $medium-brown,
+  "dark-brown": $dark-brown
+);
+
+// Override font
+$font-family-sans-serif: -apple-system, system-ui, BlinkMacSystemFont, "Circular-Bold", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$font-family-serif:      Georgia, "Minion", Times, serif !default;
+$font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base:       $font-family-sans-serif !default;

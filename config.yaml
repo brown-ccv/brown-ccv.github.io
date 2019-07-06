@@ -1,0 +1,10 @@
+baseURL: "http://example.org/"
+languageCode: "en-us"
+title: "CCVConf"
+theme: brown-simple
+
+params:
+  title: CCVCon'19
+  subtitle: not just Oscar
+  hero:
+    - FALL 2019
