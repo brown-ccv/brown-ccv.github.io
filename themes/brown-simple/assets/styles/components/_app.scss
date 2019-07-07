@@ -10,7 +10,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Circular-Book';
-  background-color: #2E2E40;
+  background-color: $ttl2;
+  background-image: linear-gradient(to top left, $ttl2, #101b26);
 }
 
 .hero-container {
@@ -32,19 +33,23 @@ body {
   font-size: 2rem;
   letter-spacing: 2rem;
   padding-top: 2rem;
-  color: #F2AD85;
+  color: $ttl3;
 }
 
 .display {
   font-size: 20rem;
   font-family: 'cheap-pine', sans-serif !important;
   color: $yellow;
+}
 
+.suffix {
+  color: $yellow;
+  font-size: 19rem;
 }
 
 .subtitle {
-  color: #F2CF8D;
-  text-shadow: 5px 5px 1px #8C5E66;
+  color: $ttl3;
+  text-shadow: 5px 5px 1px $ttl1;
   font-family: voltage, sans-serif;
   font-weight: 700;
   font-style: normal;

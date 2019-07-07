@@ -1,10 +1,11 @@
-baseURL: "http://example.org/"
+baseURL: "https://brown-ccv.github.io/ccvcon"
 languageCode: "en-us"
 title: "CCVConf"
 theme: brown-simple
 
 params:
-  title: CCVCon'19
+  title: CCVCon
+  year: "'19"
   subtitle: not just Oscar
   hero:
     - FALL 2019
