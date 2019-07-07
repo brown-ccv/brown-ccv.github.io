@@ -1,4 +1,4 @@
-dist: xenial
+dist: trusty
 language: go
 go:
   - "1.11"
@@ -6,9 +6,9 @@ go:
 sudo: required
 
 addons:
- snaps:
-   - name: hugo
-     channel: extended
+  apt:
+    packages:
+      - hugo
 
 script:
   - hugo
