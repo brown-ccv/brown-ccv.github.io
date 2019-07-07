@@ -1,14 +1,14 @@
+dist: xenial
 language: go
 go:
   - "1.11"
 
-git:
-  depth: 10
-
 sudo: required
 
-before_install:
-  - snap install hugo --channel=extended
+addons:
+ snaps:
+   name: hugo
+   channel: extended
 
 script:
   - hugo
