@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  hugo:
+    build: .
+    volumes:
+      - ./docs:/site/docs
