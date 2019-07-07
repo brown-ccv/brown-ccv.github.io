@@ -2,6 +2,7 @@ baseURL: "https://brown-ccv.github.io/ccvcon"
 languageCode: "en-us"
 title: "CCVConf"
 theme: brown-simple
+publishDir: docs
 
 params:
   title: CCVCon
