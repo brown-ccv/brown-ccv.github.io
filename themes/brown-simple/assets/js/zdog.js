@@ -106,9 +106,9 @@ let isSpinning = true;
 
 function animate() {
   // rotate
-  if ( isSpinning ) {
-    illo.rotate.y += 0.01;
-  }
+  // if ( isSpinning ) {
+  //   illo.rotate.y += 0.01;
+  // }
   illo.updateRenderGraph();
   requestAnimationFrame( animate );
 }

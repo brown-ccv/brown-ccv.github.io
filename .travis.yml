@@ -8,9 +8,7 @@ git:
 sudo: required
 
 before_install:
-  - sudo apt-get update
-  - sudo apt-get install node -y
-  - go get -u -v github.com/gohugoio/hugo
+  - snap install hugo --channel=extended
 
 script:
   - hugo
