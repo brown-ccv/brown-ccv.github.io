@@ -5,10 +5,9 @@ go:
 
 sudo: required
 
-addons:
-  apt:
-    packages:
-      - hugo
+before_install:
+  - sudo apt-get update
+  - sudo apt-get install -y hugo
 
 script:
   - hugo
