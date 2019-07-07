@@ -7,8 +7,8 @@ sudo: required
 
 addons:
  snaps:
-   name: hugo
-   channel: extended
+   - name: hugo
+     channel: extended
 
 script:
   - hugo
