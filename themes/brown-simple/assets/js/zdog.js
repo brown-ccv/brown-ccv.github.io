@@ -112,4 +112,5 @@ function animate() {
   illo.updateRenderGraph();
   requestAnimationFrame( animate );
 }
-animate();
+illo.updateRenderGraph();
+// animate();
