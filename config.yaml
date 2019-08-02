@@ -9,4 +9,11 @@ params:
   year: "'19"
   subtitle: not just Oscar
   hero:
-    - FALL 2019
+    date:
+      day: 18
+      dow: Fri
+      month: Oct
+      year: 2019
+    location:
+      building: Engineering Research Center
+      city: Brown University – Providence, RI
