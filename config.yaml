@@ -2,7 +2,6 @@ baseURL: "https://ccvcon.brown.edu"
 languageCode: "en-us"
 title: "CCVConf"
 theme: brown-simple
-publishDir: docs
 
 params:
   title: CCVCon
