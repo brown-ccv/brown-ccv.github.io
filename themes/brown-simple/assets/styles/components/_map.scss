@@ -1,0 +1,10 @@
+#map {
+	width: 75%;
+  iframe {
+		width: 100%;
+    border:0;
+    filter: gray; /* IE6-9 */
+	  -webkit-filter: grayscale(99%); /* Chrome 19+ & Safari 6+ */
+	  -webkit-backface-visibility: hidden;  /* Fix for transition flickering */
+  }
+}

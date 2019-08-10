@@ -1,0 +1,14 @@
+
+<div id="schedule" class="w-75 py-5">
+  <ul class="box">
+    <h3>Program</h3>
+    {{ range .Site.Params.program }}
+    <li>
+      <span
+      class="{{if eq .type `food`}}text-coral{{ end }}"
+      >{{ .time }} – {{if .speaker }} {{.speaker}}: {{ end }} {{ .title }}
+    </li>
+    {{ end }}
+  </ul>
+
+</div>

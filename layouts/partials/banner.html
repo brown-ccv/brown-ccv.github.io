@@ -1,0 +1,18 @@
+<div class="banner flex flex-row justify-content-around px-5 w-75">
+  {{ with .Site.Params.info}}
+  <div class="left">
+    <div class="fa-4x">
+    <span class="fa-layers fa-fw">
+      <i class="fas fa-calendar"></i>
+      <span class="fa-layers-text" data-fa-transform="shrink-12">{{ .date.month }}</span>
+      <span class="fa-layers-text" data-fa-transform="shrink-9 down-5">{{ .date.day }}</span>
+    </span>
+    </div>
+  </div>
+  <div class="right">
+    <p>{{ $.Site.Params.full_title }}</p>
+    <p>Location: <strong>{{ .location.building }}</strong></p>
+    <p>{{ .location.city }}</p>
+  </div>
+  {{ end }}
+</div>

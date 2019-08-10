@@ -1,0 +1,17 @@
+#schedule {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.box {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-basis: 28%;
+}
+.box>* {
+  flex: 1 1 auto;
+  padding-right: 0.5rem;
+}

@@ -21,17 +21,17 @@ body {
   align-items: center;
 }
 
-.hero-bottom {
+.banner {
+  background-color: $ttl2;
   margin-top: 4rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  border-top: 3px solid $ttl1;
-  border-bottom: 3px solid $ttl1;
-
   font-size: 2rem;
   color: $ttl3;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .display {
@@ -56,35 +56,31 @@ body {
 
 .left {
   font-family: 'aurea-ultra', serif !important;
+  line-height: 2.4rem;
   p:first-of-type {
     font-size: 4rem;
   }
   p:nth-of-type(2n) {
     font-size: 1.6rem;
   }
-  border-right: 3px solid $ttl1;
-  margin: 1rem 2rem 1rem 1rem;
-  padding-right: 3rem !important;
   align-items: center;
 }
 
 
 .right {
-  line-height: 2rem;
   p:first-of-type {
-    font-size: 1.5rem;
-  }
-  p:nth-of-type(2n) {
-    font-size: 3rem;
-    font-family: 'aurea-ultra', serif !important;
-  }
-  p:last-of-type {
     font-size: 1.8rem;
+    font-family: 'aurea-ultra', serif !important;  }
+  p:nth-of-type(2n) {
+    font-size: 1.5rem;
+    line-height: 1.2rem;
+  }
+  p:nth-of-type(3n) {
+    line-height: 1.2rem;
+    font-size: 1rem;
   }
 }
 
 .left, .right {
-  display: flex;
-  flex-direction: column;
   padding: 1rem;
 }

@@ -6,9 +6,10 @@ publishDir: docs
 
 params:
   title: CCVCon
+  full_title: Center for Computation & Visualization Conference
   year: "'19"
   subtitle: not just Oscar
-  hero:
+  info:
     date:
       day: 18
       dow: Fri
@@ -17,3 +18,85 @@ params:
     location:
       building: Engineering Research Center
       city: Brown University – Providence, RI
+  program:
+    - time: 8:30
+      session: Data Visualization
+      title: Some interesting talk
+      description: Some long description that will show on click or hover.
+      speaker: Someone
+    - time: 8:45
+      session: Data Visualization
+      title: Another presentation
+      description:
+      speaker: Someone else
+    - time: 9:00
+      session: Data Visualization
+      title: Intern talk.
+      description:
+      speaker: another person
+    - time: 9:30
+      session: Data Visualization
+      title: This one is really good.
+      description:
+      speaker: yet another person
+    - time: 9:45
+      session: Data Visualization
+      title: Let's viz!
+      description:
+    - time: 10:00
+      title: Coffee Break
+      type: food
+    - time: 8:30
+      session: Data Visualization
+      title: Some interesting talk
+      description: Some long description that will show on click or hover.
+      speaker: Someone
+    - time: 8:45
+      session: Data Visualization
+      title: Another presentation
+      description:
+      speaker: Someone else
+    - time: 9:00
+      session: Data Visualization
+      title: Intern talk.
+      description:
+      speaker: another person
+    - time: 9:30
+      session: Data Visualization
+      title: This one is really good.
+      description:
+      speaker: yet another person
+    - time: 9:45
+      session: Data Visualization
+      title: Let's viz!
+      description:
+    - time: 10:00
+      title: Coffee Break
+      type: food
+    - time: 8:30
+      session: Data Visualization
+      title: Some interesting talk
+      description: Some long description that will show on click or hover.
+      speaker: Someone
+    - time: 8:45
+      session: Data Visualization
+      title: Another presentation
+      description:
+      speaker: Someone else
+    - time: 9:00
+      session: Data Visualization
+      title: Intern talk.
+      description:
+      speaker: another person
+    - time: 9:30
+      session: Data Visualization
+      title: This one is really good.
+      description:
+      speaker: yet another person
+    - time: 9:45
+      session: Data Visualization
+      title: Let's viz!
+      description:
+    - time: 10:00
+      title: Coffee Break
+      type: food

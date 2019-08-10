@@ -2,21 +2,14 @@
   <div class="d-flex flex-column hero-center typewriter">
     <h1 class="display-1 display">{{ .Site.Params.title }}<span class='suffix'>{{.Site.Params.year}}</span></h1>
     <h2 class="subtitle"><i><span id="typewriter"></span></i></h2>
-    <div class="hero-bottom">
-      {{ with .Site.Params.hero}}
-      <div class="left">
-        <p>{{ upper .date.dow }}</p>
-        <p>{{ .date.day }} {{ .date.month }} {{ .date.year }}</p>
-        <p></p>
-      </div>
-      <div class="right">
-        <p>Location</p>
-        <p>{{ .location.building }}</p>
-        <p>{{ .location.city }}</p>
-      </div>
-      {{ end }}
-    </div>
     {{ partial "zdog" . }}
+
+
+    {{ partial "banner" . }}
+
+    {{ partial "schedule" . }}
+    {{ partial "map" . }}
+
     {{ partial "logos" . }}
   </div>
 </div>
