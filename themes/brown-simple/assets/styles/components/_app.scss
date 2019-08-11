@@ -35,14 +35,15 @@ body {
 }
 
 .display {
-  font-size: 20rem;
+  padding-top: 10rem;
+  font-size: $base-font-size * 12;
   font-family: 'cheap-pine', sans-serif !important;
   color: $yellow;
 }
 
 .suffix {
   color: $yellow;
-  font-size: 19rem;
+  font-size: $base-font-size * 11;
 }
 
 .subtitle {
@@ -52,35 +53,4 @@ body {
   font-weight: 700;
   font-style: normal;
   font-size: 4rem;
-}
-
-.left {
-  font-family: 'aurea-ultra', serif !important;
-  line-height: 2.4rem;
-  p:first-of-type {
-    font-size: 4rem;
-  }
-  p:nth-of-type(2n) {
-    font-size: 1.6rem;
-  }
-  align-items: center;
-}
-
-
-.right {
-  p:first-of-type {
-    font-size: 1.8rem;
-    font-family: 'aurea-ultra', serif !important;  }
-  p:nth-of-type(2n) {
-    font-size: 1.5rem;
-    line-height: 1.2rem;
-  }
-  p:nth-of-type(3n) {
-    line-height: 1.2rem;
-    font-size: 1rem;
-  }
-}
-
-.left, .right {
-  padding: 1rem;
 }

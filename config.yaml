@@ -21,82 +21,99 @@ params:
   program:
     - time: 8:30
       session: Data Visualization
-      title: Some interesting talk
-      description: Some long description that will show on click or hover.
-      speaker: Someone
-    - time: 8:45
-      session: Data Visualization
-      title: Another presentation
-      description:
-      speaker: Someone else
+      title: Breakfast
+      type: food
     - time: 9:00
+      title: Opening Remarks
+      description:
+      speaker: Linnea Wolfe, Paul Stey
+    - time: 9:30
       session: Data Visualization
       title: Intern talk.
       description:
       speaker: another person
-    - time: 9:30
+    - time: 9:45
       session: Data Visualization
       title: This one is really good.
       description:
       speaker: yet another person
-    - time: 9:45
+    - time: 10:00
       session: Data Visualization
       title: Let's viz!
       description:
-    - time: 10:00
+    - time: 10:15
+      session: Data Visualization
+      title: Let's viz!
+      description:
+    - time: 10:30
       title: Coffee Break
       type: food
-    - time: 8:30
+    - time: 11:00
       session: Data Visualization
       title: Some interesting talk
       description: Some long description that will show on click or hover.
       speaker: Someone
-    - time: 8:45
+    - time: 11:15
       session: Data Visualization
       title: Another presentation
       description:
       speaker: Someone else
-    - time: 9:00
+    - time: 11:30
       session: Data Visualization
       title: Intern talk.
       description:
       speaker: another person
-    - time: 9:30
+    - time: 11:45
       session: Data Visualization
       title: This one is really good.
       description:
       speaker: yet another person
-    - time: 9:45
+    - time: 12:00
+      title: Lunch
+      type: food
+    - time: 13:30
       session: Data Visualization
       title: Let's viz!
       description:
-    - time: 10:00
+    - time: 13:45
+      session: Data Visualization
+      title: Some interesting talk
+      description: Some long description that will show on click or hover.
+      speaker: Someone
+    - time: 14:00
+      session: Data Visualization
+      title: Another presentation
+      description:
+      speaker: Someone else
+    - time: 14:15
+      session: Data Visualization
+      title: Intern talk.
+      description:
+      speaker: another person
+    - time: 14:30
       title: Coffee Break
       type: food
-    - time: 8:30
-      session: Data Visualization
-      title: Some interesting talk
-      description: Some long description that will show on click or hover.
-      speaker: Someone
-    - time: 8:45
-      session: Data Visualization
-      title: Another presentation
-      description:
-      speaker: Someone else
-    - time: 9:00
-      session: Data Visualization
-      title: Intern talk.
-      description:
-      speaker: another person
-    - time: 9:30
-      session: Data Visualization
-      title: This one is really good.
-      description:
-      speaker: yet another person
-    - time: 9:45
+    - time: 15:00
       session: Data Visualization
       title: Let's viz!
       description:
-    - time: 10:00
-      title: Coffee Break
+    - time: 15:15
+      session: Data Visualization
+      title: Let's viz!
+      description:
+    - time: 15:30
+      session: Data Visualization
+      title: Let's viz!
+      description:
+    - time: 15:45
+      session: Data Visualization
+      title: Let's viz!
+      description:
+    - time: 16:00
+      session: Keynote
+      title: Closing Remarks
+      description: Keynote
+      speaker: Thomas Serre
+    - time: 16:45
+      title: Reception
       type: food

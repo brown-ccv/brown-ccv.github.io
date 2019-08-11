@@ -44,3 +44,6 @@ $font-family-sans-serif: -apple-system, system-ui, BlinkMacSystemFont, "Circular
 $font-family-serif:      Georgia, "Minion", Times, serif !default;
 $font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 $font-family-base:       $font-family-sans-serif !default;
+$base-font-size: 1rem;
+
+$enable-responsive-font-sizes: true;

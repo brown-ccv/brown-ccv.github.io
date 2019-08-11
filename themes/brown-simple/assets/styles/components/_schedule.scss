@@ -1,17 +1,30 @@
 #schedule {
-  display: flex;
-  justify-content: flex-start;
-  width: 100%;
-}
+  font-size: $base-font-size * 3;
+  width: 90%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 
+}
 .box {
-  height: 200px;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  flex-basis: 28%;
 }
-.box>* {
-  flex: 1 1 auto;
-  padding-right: 0.5rem;
+
+@media only screen and (min-device-width: 768px) {
+  #schedule {
+    font-size: $base-font-size;
+    display: flex;
+    justify-content: flex-start;
+    width: 75%;
+  }
+  .box {
+    height: 16rem;
+    flex-wrap: wrap;
+    flex-basis: 28%;
+  }
+  .box>* {
+    flex: 1 1 auto;
+    padding-right: 0.5rem;
+  }
 }
