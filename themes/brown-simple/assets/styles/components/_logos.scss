@@ -3,9 +3,11 @@
   align-items: center;
   flex-direction: row;
   width: 45%;
+  height: 30vh;
   svg {
     padding: 2rem;
     fill: $ttl1;
+    height: 100%;
   }
 }
 
