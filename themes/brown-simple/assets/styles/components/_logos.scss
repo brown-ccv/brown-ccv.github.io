@@ -1,16 +1,29 @@
 .logos {
+  display: flex;
+  flex-direction: row;
   margin-top: 2rem;
   align-items: center;
-  flex-direction: row;
-  width: 45%;
-  height: 30vh;
+  justify-content: center;
+  width: 100%;
+  height: 20vh;
   svg {
     padding: 2rem;
     fill: $ttl1;
-    height: 100%;
   }
+}
+#brown-logo {
+  height: 100%;
 }
 
 #ccv-logo {
   stroke: $ttl1;
+  stroke-width: 2px;
+  height: 70%;
+
+}
+
+@media only screen and (min-device-width: 768px) {
+  #ccv-logo {
+    height: 85%;
+  }
 }
