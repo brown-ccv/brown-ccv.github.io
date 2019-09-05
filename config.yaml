@@ -11,10 +11,9 @@ params:
   subtitle: not just Oscar
   info:
     date:
-      day: 18
-      dow: Fri
-      month: Oct
-      year: 2019
+      start: Monday Oct 28
+      end:  Friday Nov 1
+      time_start: 3pm
     location:
       building: Engineering Research Center
       city: Brown University – Providence, RI

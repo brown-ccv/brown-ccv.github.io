@@ -1,16 +1,14 @@
 <div class="banner">
   {{ with .Site.Params.info}}
-  <div class="left">
-    <div class="fa-4x">
-    <span class="fa-layers fa-fw">
-      <i class="fas fa-calendar"></i>
-      <span class="fa-layers-text" data-fa-transform="shrink-12">{{ .date.month }}</span>
-      <span class="fa-layers-text" data-fa-transform="shrink-9 down-5">{{ .date.day }}</span>
-    </span>
+  <div class="banner-content">
+    <div>
+      <p></p>
+      <p class="text-small"><span class="mr-3 fas fa-calendar-alt"></span>{{.date.start}} – {{.date.end}}</p>
+      <p class="text-small"><span class="mr-3 fas fa-clock"></span>{{.date.time_start}}</p>
     </div>
-  </div>
-  <div class="right">
+    <hr>
     <p>{{ $.Site.Params.full_title }}</p>
+    <hr>
     <p>Location: <strong>{{ .location.building }}</strong></p>
     <p>{{ .location.city }}</p>
   </div>
