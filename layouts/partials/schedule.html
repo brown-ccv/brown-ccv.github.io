@@ -6,7 +6,8 @@
     <li>
       <span
       class="{{if eq .type `food`}}text-coral{{ end }}"
-      >{{ .time }} – {{if .speaker }} {{.speaker}}: {{ end }} {{ .title }}
+      >
+      {{ .time }} – {{ .title }}
     </li>
     {{ end }}
   </ul>

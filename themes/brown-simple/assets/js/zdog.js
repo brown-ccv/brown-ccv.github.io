@@ -4,7 +4,7 @@ let illo = new Zdog.Illustration({
   // set canvas with selector
   element: '.zdog-canvas',
   dragRotate: true,
-  zoom: 0.5,
+  zoom: 0.8,
   rotate: { x: Zdog.TAU/6, z: -Zdog.TAU/12 },
   // stop rotation when dragging starts
   onDragStart: function() {

@@ -15,16 +15,7 @@
   #schedule {
     font-size: $base-font-size;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     width: 75%;
-  }
-  .box {
-    height: 16rem;
-    flex-wrap: wrap;
-    flex-basis: 28%;
-  }
-  .box>* {
-    flex: 1 1 auto;
-    padding-right: 0.5rem;
   }
 }

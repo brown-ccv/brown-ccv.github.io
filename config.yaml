@@ -1,11 +1,11 @@
-baseURL: "https://ccvcon.brown.edu"
+baseURL: "https://ccv.brown.edu/ccvcon"
 languageCode: "en-us"
-title: "CCVConf"
+title: "CCV·Con"
 theme: brown-simple
 publishDir: docs
 
 params:
-  title: CCVCon
+  title: CCV·Con
   full_title: Center for Computation & Visualization Conference
   year: "'19"
   subtitle: not just Oscar
@@ -13,106 +13,28 @@ params:
     date:
       start: Monday Oct 28
       end:  Friday Nov 1
-      time_start: 3pm
+      time_start: 3 - 5pm
     location:
-      building: Engineering Research Center
+      building: Data Science Initiative - 164 Angell Street, 3rd Floor
       city: Brown University – Providence, RI
   program:
-    - time: 8:30
-      session: Data Visualization
-      title: Breakfast
-      type: food
-    - time: 9:00
-      title: Opening Remarks
-      description:
-      speaker: Linnea Wolfe, Paul Stey
-    - time: 9:30
-      session: Data Visualization
-      title: Intern talk.
-      description:
-      speaker: another person
-    - time: 9:45
-      session: Data Visualization
-      title: This one is really good.
-      description:
-      speaker: yet another person
-    - time: 10:00
-      session: Data Visualization
-      title: Let's viz!
-      description:
-    - time: 10:15
-      session: Data Visualization
-      title: Let's viz!
-      description:
-    - time: 10:30
-      title: Coffee Break
-      type: food
-    - time: 11:00
-      session: Data Visualization
-      title: Some interesting talk
-      description: Some long description that will show on click or hover.
-      speaker: Someone
-    - time: 11:15
-      session: Data Visualization
-      title: Another presentation
-      description:
-      speaker: Someone else
-    - time: 11:30
-      session: Data Visualization
-      title: Intern talk.
-      description:
-      speaker: another person
-    - time: 11:45
-      session: Data Visualization
-      title: This one is really good.
-      description:
-      speaker: yet another person
-    - time: 12:00
-      title: Lunch
-      type: food
-    - time: 13:30
-      session: Data Visualization
-      title: Let's viz!
-      description:
-    - time: 13:45
-      session: Data Visualization
-      title: Some interesting talk
-      description: Some long description that will show on click or hover.
-      speaker: Someone
-    - time: 14:00
-      session: Data Visualization
-      title: Another presentation
-      description:
-      speaker: Someone else
-    - time: 14:15
-      session: Data Visualization
-      title: Intern talk.
-      description:
-      speaker: another person
-    - time: 14:30
-      title: Coffee Break
-      type: food
-    - time: 15:00
-      session: Data Visualization
-      title: Let's viz!
-      description:
-    - time: 15:15
-      session: Data Visualization
-      title: Let's viz!
-      description:
-    - time: 15:30
-      session: Data Visualization
-      title: Let's viz!
-      description:
-    - time: 15:45
-      session: Data Visualization
-      title: Let's viz!
-      description:
-    - time: 16:00
+    - time: Monday
+      session: Data + Visualization
+      title: Data + Visualization
+      speaker: Isabel Restrepo, Ben Knörlein
+    - time: Tuesday
+      session: Secure Computing
+      title: Secure Computing
+      speaker: Mete Tunca
+    - time: Wednesday
+      session: Data Science + Machine Learning
+      title: Data Science + Machine Learning
+      speaker: Andras Zsom, Paul Stey
+    - time: Thursday
+      session: High Performance Computing
+      title: High Performance Computing
+      speaker: Helen Kershaw
+    - time: Friday
       session: Keynote
-      title: Closing Remarks
-      description: Keynote
+      title: Keynote + Reception
       speaker: Thomas Serre
-    - time: 16:45
-      title: Reception
-      type: food
