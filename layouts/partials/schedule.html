@@ -1,15 +1,14 @@
 
-<div id="schedule">
-  <ul class="box">
-    <h3 class="bg-blue">Program</h3>
-    {{ range .Site.Params.program }}
-    <li>
-      <span
-      class="{{if eq .type `food`}}text-coral{{ end }}"
-      >
-      {{ .time }} – {{ .title }}
-    </li>
-    {{ end }}
-  </ul>
+<div class="banner-content">
+  <h3>Program</h3>
+  {{ range .Site.Params.program }}
+  <div class="session">
+    <p class="time badge bg-secondary">{{if eq .time "Thursday, October 31" }}<span class="fas fa-ghost pr-2"></span>{{else}}<span class="fas fa-calendar pr-2"></span>{{end}}{{.time}}</p>
+    <p>{{ .session }}</p>
+    <p class="small">
+      {{ if eq .time "Friday, November 1"}}{{else}}Session chair:{{end}}
+      {{ .speaker }}</p>
+    </div>
+  {{ end }}
 
 </div>

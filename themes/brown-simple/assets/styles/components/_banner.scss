@@ -1,61 +1,24 @@
 .banner {
+  margin-top: 4rem;
   display: flex;
-  flex-direction: column;
-  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  font-size: 2rem;
+  color: $ttl3;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
-
-
 .banner-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
   padding: 2rem;
-  p:first-of-type {
-    font-size: $base-font-size * 2.8;
-    text-align: center;
-    font-family: 'aurea-ultra', serif !important;  }
-  p:nth-of-type(2n) {
-    font-size: $base-font-size * 2.5;
-    line-height: 1.8rem;
-  }
-  p:nth-of-type(3n) {
-    line-height: 1.6rem;
-    font-size: $base-font-size * 2;
-  }
-  .text-small {
-    font-size: $base-font-size * 1 !important;
-    line-height: $base-font-size * 0.4 !important;
-  }
 }
 
 @media only screen and (min-device-width: 768px) {
   .banner {
-    flex-direction: row;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    width: 75%;
-  }
-  .banner-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 100%;
-    padding: 2rem;
-    p:first-of-type {
-      font-size: $base-font-size * 2.2;
-      text-align: left;
-    }
-    p:nth-of-type(2n) {
-      font-size: $base-font-size * 2;
-      line-height: 1.8rem;
-    }
-    p:nth-of-type(3n) {
-      line-height: 1.6rem;
-      font-size: $base-font-size * 1.5;
+    div {
+      flex-basis: 45%;
     }
   }
 }

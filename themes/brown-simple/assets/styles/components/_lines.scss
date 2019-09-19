@@ -9,7 +9,7 @@ h2 {
 h2:before,
 h2:after {
     content: '';
-    border-top: 2px solid;
+    border-top: 2px solid $ttl4;
     margin: 0 20px 0 0;
     flex: 1 0 20px;
 }

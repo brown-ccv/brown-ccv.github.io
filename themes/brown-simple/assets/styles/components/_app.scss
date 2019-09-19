@@ -21,33 +21,20 @@ body {
   align-items: center;
 }
 
-.banner {
-  background-color: $ttl2;
-  margin-top: 4rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  font-size: 2rem;
-  color: $ttl3;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
 .display {
   padding-top: 10rem;
-  font-size: $base-font-size * 12;
+  font-size: $base-font-size * 16;
   font-family: 'cheap-pine', sans-serif !important;
-  color: $yellow;
+  color: $ttl3;
 }
 
 .suffix {
-  color: $yellow;
-  font-size: $base-font-size * 11;
+  color: $ttl3;
+  font-size: $base-font-size * 15;
 }
 
 .subtitle {
-  color: $ttl3;
+  color: $ttl4;
   text-shadow: 5px 5px 1px $ttl1;
   font-family: voltage, sans-serif;
   font-weight: 700;

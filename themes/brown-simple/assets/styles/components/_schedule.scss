@@ -1,21 +1,16 @@
-#schedule {
-  font-size: $base-font-size * 3;
-  width: 90%;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-
-}
 .box {
   height: 100%;
   display: flex;
   flex-direction: column;
+  li {
+    color: $ttl5;
+  }
 }
 
-@media only screen and (min-device-width: 768px) {
-  #schedule {
-    font-size: $base-font-size;
-    display: flex;
-    justify-content: space-between;
-    width: 75%;
-  }
+.session {
+  color: $ttl5;
+  margin-top: 3rem;
+}
+.time {
+  color: $ttl2;
 }

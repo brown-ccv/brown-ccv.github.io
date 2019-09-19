@@ -6,6 +6,23 @@
 <script src="https://unpkg.com/zdog@1/dist/zdog.dist.min.js"></script>
 <script src="{{ $zdog.Permalink }}"></script>
 <script src="{{ $tw.Permalink }}"></script>
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
 
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
+
+    window.EBWidgets.createWidget({
+        // Required
+        widgetType: 'checkout',
+        eventId: '73436768351',
+        iframeContainerId: 'eventbrite-widget-container-73436768351',
+
+        // Optional
+        iframeContainerHeight: 825,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
+    });
+</script>
 </body>
 </html>

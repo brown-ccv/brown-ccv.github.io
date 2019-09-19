@@ -15,26 +15,26 @@ params:
       end:  Friday Nov 1
       time_start: 3 - 5pm
     location:
-      building: Data Science Initiative - 164 Angell Street, 3rd Floor
-      city: Brown University – Providence, RI
+      building: Data Science Initiative - 164 Angell Street, 3rd Floor, Brown University
+      city: Providence, RI
   program:
-    - time: Monday
-      session: Data + Visualization
-      title: Data + Visualization
-      speaker: Isabel Restrepo, Ben Knörlein
-    - time: Tuesday
-      session: Secure Computing
-      title: Secure Computing
-      speaker: Mete Tunca
-    - time: Wednesday
+    - time: Monday, October 28
+      session: Reproducible Science
+      title: Reproducible Science
+      speaker: Isabel Restrepo
+    - time: Tuesday, October 29
+      session: Secure Computing + Visualization
+      title: Secure Computing + Visualization
+      speaker: Mete Tunca, Ben Knörlein
+    - time: Wednesday, October 30
       session: Data Science + Machine Learning
       title: Data Science + Machine Learning
       speaker: Andras Zsom, Paul Stey
-    - time: Thursday
+    - time: Thursday, October 31
       session: High Performance Computing
       title: High Performance Computing
       speaker: Helen Kershaw
-    - time: Friday
-      session: Keynote
-      title: Keynote + Reception
-      speaker: Thomas Serre
+    - time: Friday, November 1
+      session: Not Just Oscar Pannel + Keynote
+      title: Not Just Oscar Pannel + Keynote + Reception
+      speaker: Linnea Wolfe, Paul Stey, Mete Tunca, Thomas Serre
