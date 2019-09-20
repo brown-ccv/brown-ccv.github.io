@@ -1,40 +1,46 @@
-baseURL: "https://ccv.brown.edu/ccvcon"
+baseURL: //datasci.brown.edu/ccvcon
 languageCode: "en-us"
 title: "CCV·Con"
 theme: brown-simple
-publishDir: docs
+publishDir: public
 
 params:
   title: CCV·Con
   full_title: Center for Computation & Visualization Conference
-  year: "'19"
   subtitle: not just Oscar
   info:
     date:
       start: Monday Oct 28
       end:  Friday Nov 1
+      year: 2019
       time_start: 3 - 5pm
     location:
       building: Data Science Initiative - 164 Angell Street, 3rd Floor, Brown University
       city: Providence, RI
+    note: "<i class='fad fa-cookie'></i> <i class='fad fa-glass-citrus'></i> Light snacks and beverages will be served every day at 3pm. <i class='fad fa-cocktail'></i> <i class='fad fa-cheese'></i> There will be a reception on Friday November 1st until 7pm, after the Keynote. <i class='fad fa-shopping-bag'></i>  The first 50 people to arrive will get a swag of the day (see below)."
   program:
     - time: Monday, October 28
       session: Reproducible Science
       title: Reproducible Science
       speaker: Isabel Restrepo
+      swag: moleskin notebook
     - time: Tuesday, October 29
-      session: Secure Computing + Visualization
-      title: Secure Computing + Visualization
+      session: Research Infrastructure + Visualization
+      title: Research Infrastructure + Visualization
       speaker: Mete Tunca, Ben Knörlein
+      swag: water bottle
     - time: Wednesday, October 30
       session: Data Science + Machine Learning
       title: Data Science + Machine Learning
       speaker: Andras Zsom, Paul Stey
+      swag: tote bag
     - time: Thursday, October 31
       session: High Performance Computing
       title: High Performance Computing
       speaker: Helen Kershaw
+      swag: hat
     - time: Friday, November 1
-      session: Not Just Oscar Pannel + Keynote
-      title: Not Just Oscar Pannel + Keynote + Reception
-      speaker: Linnea Wolfe, Paul Stey, Mete Tunca, Thomas Serre
+      session: Not Just Oscar Panel + Keynote
+      title: Not Just Oscar Panel + Keynote + Reception
+      speaker: Linnea Wolfe, Mete Tunca, Paul Stey. Keynote by Thomas Serre.
+      swag: mug

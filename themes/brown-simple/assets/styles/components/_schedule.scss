@@ -7,10 +7,23 @@
   }
 }
 
+small {
+  font-size: 1.2rem !important;
+}
+
 .session {
   color: $ttl5;
   margin-top: 3rem;
+  .small {
+    font-size: 1.4rem;
+  }
+  p {
+    line-height: 1.6rem;
+  }
 }
 .time {
   color: $ttl2;
+}
+.fa-ghost {
+  font-size: 1.8rem !important;
 }

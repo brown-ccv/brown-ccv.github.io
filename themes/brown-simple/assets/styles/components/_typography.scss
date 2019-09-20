@@ -12,16 +12,22 @@
   color: $ttl5;
 }
 
-#schedule h1, h2, h3 {
+h1, h2, h3 {
   color: $ttl4;
   font-size: $base-font-size * 3;
 }
 
-#schedule h4, h5, ul, li  {
+h4, h5, ul, li  {
   color: $ttl1;
   list-style-type: none;
 }
 
 .text-coral{
   color: $ttl5;
+}
+
+@media only screen and (min-device-width: 768px) {
+  .small {
+    font-size: 1.4rem;
+  }
 }

@@ -3,7 +3,9 @@
   <h3>Program</h3>
   {{ range .Site.Params.program }}
   <div class="session">
-    <p class="time badge bg-secondary">{{if eq .time "Thursday, October 31" }}<span class="fas fa-ghost pr-2"></span>{{else}}<span class="fas fa-calendar pr-2"></span>{{end}}{{.time}}</p>
+    <p class="time badge bg-secondary">{{if eq .time "Thursday, October 31" }}<span class="fad fa-ghost pr-2"></span>{{else}}<span class="fad fa-calendar-day pr-2"></span>{{end}}{{.time}}</p>
+    <small><span class="fad fa-shopping-bag pr-2"></span>{{.swag}}</small>
+
     <p>{{ .session }}</p>
     <p class="small">
       {{ if eq .time "Friday, November 1"}}{{else}}Session chair:{{end}}

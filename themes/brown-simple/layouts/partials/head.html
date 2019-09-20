@@ -2,6 +2,7 @@
 <html lang="en-US">
 <head>
       {{ $style := resources.Get "styles/custom.scss" | resources.ToCSS | resources.Minify }}
+      <meta charset="UTF-8"/>
       <link rel="stylesheet" href="{{ $style.Permalink }}">
       <script src="https://kit.fontawesome.com/33643e3040.js"></script>
 </head>

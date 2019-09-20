@@ -1,7 +1,7 @@
 {{ $zdog := resources.Get "js/zdog.js"}}
 {{ $tw := resources.Get "js/typewriter.js"}}
 
-
+<script src="https://kit.fontawesome.com/7a51c6becc.js" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 <script src="https://unpkg.com/zdog@1/dist/zdog.dist.min.js"></script>
 <script src="{{ $zdog.Permalink }}"></script>
@@ -20,7 +20,7 @@
         iframeContainerId: 'eventbrite-widget-container-73436768351',
 
         // Optional
-        iframeContainerHeight: 825,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+        iframeContainerHeight: 1000,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
         onOrderComplete: exampleCallback  // Method called when an order has successfully completed
     });
 </script>

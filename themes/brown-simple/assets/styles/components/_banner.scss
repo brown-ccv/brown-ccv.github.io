@@ -9,16 +9,38 @@
   color: $ttl3;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  div {
+    flex-basis: 90%;
+  }
+}
+
+.note {
+  font-size: 1.6rem;
+  color: $ttl5;
+  border: 1px solid $ttl5;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
 }
 
 .banner-content {
   padding: 2rem;
+
+  small {
+    font-size: 1rem;
+    color: $ttl2;
+    background-color: $ttl5;
+    padding: 0.3rem;
+    @extend .rounded;
+  }
 }
 
 @media only screen and (min-device-width: 768px) {
   .banner {
     div {
       flex-basis: 45%;
+    }
+    .note {
+      font-size: 1rem;
     }
   }
 }
