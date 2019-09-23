@@ -3,6 +3,7 @@ languageCode: "en-us"
 title: "CCV·Con"
 theme: brown-simple
 publishDir: public
+enableRobotsTXT: true
 
 params:
   title: CCV·Con
