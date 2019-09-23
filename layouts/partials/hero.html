@@ -3,11 +3,13 @@
     <h1 class="display">{{ .Site.Params.title }}</h1>
     <h2 class="subtitle"><i><span id="typewriter"></span></i></h2>
     {{ partial "zdog" . }}
+    <p class="h1 mb-3">Center for Computation & Visualization Conference</p>
+    <p class="description">{{.Site.Params.info.description}}</p>
 
     {{ partial "banner" . }}
 
   </div>
 </div>
-<hr class="bg-secondary">
+<hr>
 
 {{ partial "logos" . }}

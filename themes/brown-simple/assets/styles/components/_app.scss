@@ -41,3 +41,16 @@ body {
   font-style: normal;
   font-size: 4rem;
 }
+
+.description {
+  @extend .container;
+  text-align: center;
+  font-size: 1.2rem;
+  color: $ttl4;
+  border-bottom: 1px solid $ttl5;
+  padding-bottom: 3rem;
+}
+
+hr {
+  background-color: $ttl5 !important;
+}
