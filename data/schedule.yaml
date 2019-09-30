@@ -83,5 +83,5 @@ data_science:
       start: "4:20"
       end: "5:00"
     speaker: Ashley Lee
-    title_affiliation:
+    title_affiliation: Senior Data Scientist, CCV
     abstract: "Natural Language Processing (NLP) concerns the interactions between computers and human languages. Natural languages contain huge amounts of information, from the topics we talk/write about and our tone to the words we choose and their context. Because of their complexity, volume, and unstructured format, text data are messy and tricky to manipulate. This Python tutorial walks through basic steps in text processing. We will work with a sample corpus of documents and prepare it for downstream NLP tasks such as document classification and topic modeling. Topics covered include: text cleaning and normalization, stemming and lemmatization, bag of words, and n-grams."
