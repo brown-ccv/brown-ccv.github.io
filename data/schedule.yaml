@@ -58,12 +58,12 @@ visualization:
     abstract: "We have developed Discrete Element Method (DEM) simulations based on guineafowl X-ray Reconstruction of Moving Morphology (XROMM) data and CT scans of Early Jurassic fossil dinosaur tracks. Foot motion data serve as inputs for dynamic DEM substrate simulations made up of millions of particles. To explore the dense volumes of 3D data generated from these methods, we turned to an immersive virtual reality (VR) room, Brown’s Yurt Ultimate Reality Theater (YURT). This talk will highlight the process of developing interactive visualizations that allow us to synthesize substrate flow at the particle, particle cluster, surface, and volumetric scale. "
 
 data_science:
-    - title: Intro and Welcome
-      time:
-        start: "3:10"
-        end: "3:20"
-      speaker: Paul Stey
-      title_affiliation: Director of Data Science and Scientific Computing, CCV
+  - title: Intro and Welcome
+    time:
+      start: "3:10"
+      end: "3:20"
+    speaker: Paul Stey
+    title_affiliation: Director of Data Science and Scientific Computing, CCV
   - title: Identification of multi-nucleated germ cells, a marker of phthalate toxicity
     time:
       start: "3:20"
