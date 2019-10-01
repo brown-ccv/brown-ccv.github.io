@@ -5,13 +5,13 @@ hpc:
       end: "3:30"
     speaker: Paul Hall
     title_affiliation: Senior Research Software Engineer, CCV
-  - title: Physically Informed Neural Networks
+  - title: Physics Informed Neural Network (PINN): A data parallel GPU based approach
     time:
       start: "3:30"
       end: "3:50"
     speaker: Raj Shukla
     title_affiliation: Research Software Engineer, CCV
-    abstract: TBD
+    abstract: Physical phenomena such as fluid flow, wave propagation, heat flow, quantum-mechanical system etc. are defined by partial differential equations (PDEs). To simulate these phenomena its essential to solve these  PDEs using numerical discretization. Numerical discretization is very complex and suffers the curse of dimensionality and meshes. Thanks to Physics Informed Neural Network (PINN) for circumventing these problems. In this work, we show the efficiency of data parallel model, implemented over GPUs, to overcome the computational complexity of PINN models.
   - title: Demystifying the gut microbiome with metagenomics
     time:
       start: "3:50"
