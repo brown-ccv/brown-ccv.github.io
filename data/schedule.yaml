@@ -3,8 +3,8 @@ hpc:
     time:
       start: "3:20"
       end: "3:30"
-    speaker: Helen Kershaw
-    title_affiliation: Lead Research Software Engineer, CCV
+    speaker: Paul Hall
+    title_affiliation: Senior Research Software Engineer, CCV
   - title: Physically Informed Neural Networks
     time:
       start: "3:30"
@@ -12,19 +12,19 @@ hpc:
     speaker: Raj Shukla
     title_affiliation: Research Software Engineer, CCV
     abstract: TBD
-  - title: TBD
+  - title: Demystifying the gut microbiome with metagenomics
     time:
       start: "3:50"
       end: "4:10"
-    speaker: TBD
-    title_affiliation
-    abstract: TBD
-  - title: TBB
+    speaker: Swathi Penumutchu
+    title_affiliation: Ph.D. Candidate, Pathobiology, MMI Department, Brown University
+    abstract: Using metagenomic pipelines to study fiber prebiotics and their potential to alleviate antibiotic-induced microbiome dysbiosis.
+  - title: TBD
     time:
       start: "4:10"
       end: "4:30"
     speaker: Loren Albert
-    title_affiliation: Voss Postdoctoral Research Associate Institute at Brown for Environment and Society
+    title_affiliation: Voss Postdoctoral Research Associate, Institute at Brown for Environment and Society
     abstract:
   - title: A demo of Arm DDT on Oscar
     time:
@@ -37,8 +37,8 @@ hpc:
     time:
       start: "4:50"
       end: "5:00"
-    speaker: Paul Hall
-    title_affiliation: Senior Research Software Engineer, CCV
+    speaker: Helen Kershaw
+    title_affiliation: Lead Research Software Engineer, CCV
     abstract: A summary of HPC resources available at Brown and beyond for research, educational and collaborative needs.  Machines, workshops, courses, consulting and more.
 
 visualization:
