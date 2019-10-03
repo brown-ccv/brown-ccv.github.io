@@ -17,7 +17,7 @@ hpc:
       start: "3:50"
       end: "4:10"
     speaker: TBD
-    title_affiliation
+    title_affiliation:
     abstract: TBD
   - title: TBB
     time:

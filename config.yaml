@@ -22,12 +22,12 @@ params:
     note: "<i class='fad fa-cookie'></i> <i class='fad fa-glass-citrus'></i> Light snacks and beverages will be served every day at 3pm. <br><i class='fad fa-cocktail'></i> <i class='fad fa-cheese'></i> There will be a reception after the keynote on Friday November 1st. <br><i class='fad fa-shopping-bag'></i>  The first 50 people to arrive will get a swag of the day (see below)."
   program:
     - time: Monday, October 28
-      session: Reproducible Science
+      session: Reproducible Science + CCV Showcase
       title: Reproducible Science
       speaker: Isabel Restrepo
       swag: "Moleskine<sup class='reg'>&#9415;</sup> notebook"
       fa: book
-    - time: Tuesday, October 29
+    - time: Tuesday, October 29 
       session: Research Infrastructure + Visualization
       title: Research Infrastructure + Visualization
       speaker: Mete Tunca, Ben Knörlein
@@ -40,8 +40,8 @@ params:
       swag: tote bag
       fa: shopping-bag
     - time: Thursday, October 31
-      session: High Performance Computing
-      title: High Performance Computing
+      session: High-performance Computing
+      title: High-performance Computing
       speaker: Helen Kershaw
       swag: hat
       fa: hat-wizard

@@ -27,3 +27,45 @@ small {
 .fa-ghost {
   font-size: 1.8rem !important;
 }
+
+.date {
+  @extend .mb-3;
+  @extend .p-3;
+  @extend .rounded;
+  color: $ttl4;
+  font-weight: bold;
+  font-size: 2.8 * $base-font-size;
+  background-color: $ttl2;
+}
+
+.chairs {
+  color: $ttl5;
+  @extend .h4;
+}
+.time {
+  @extend .text-dark;
+  @extend .p-1;
+  @extend .rounded;
+  background-color: $ttl3;
+}
+
+.right {
+  flex-basis: 80%;
+}
+
+.speaker {
+  @extend .h3;
+  color: $ttl4;
+  sup {
+    color: $ttl5;
+  }
+}
+.affiliation {
+  @extend .h6;
+  @extend .mb-2;
+  color: $ttl1;
+}
+.abstract {
+  @extend .text-secondary;
+  font-size: 1.3 * $base-font-size;
+}

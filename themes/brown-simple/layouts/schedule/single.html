@@ -1,0 +1,31 @@
+{{define "main"}}
+<div class="d-flex hero-container">
+  <div class="d-flex flex-column hero-center typewriter">
+    <h1 class="display">{{ .Site.Params.title }}</h1>
+    <h2 class="subtitle"><i>{{.Params.session}}</i></h2>
+    {{ partial "zdog" . }}
+    <p class="date">{{.Title}} – {{.Params.day}}</p>
+    <p class="chairs">Session chair: {{.Params.chairs}}</p>
+
+    <div class="d-flex flex-column justify-content-start container">
+    {{ range .Params.talks }}
+    <div class="d-flex flex-row align-items-start p-4">
+      <div class="left p-4">
+        <p class="time"><span class="fad fa-clock mr-1"></span>{{ .time.start }} – {{ .time.end }}<p>
+      </div>
+      <div class="right p-2">
+        <p class="h1">{{.title}}</p>
+        <p class="speaker">{{ .speaker | markdownify }}  </p>
+        <span class="affiliation">{{.title_affiliation}}</span>
+        <p class="abstract">{{.abstract}}</p>
+      </div>
+    </div>
+    {{ end }}
+    </div>
+
+  </div>
+</div>
+<hr>
+
+{{ partial "logos" . }}
+{{ end }}
