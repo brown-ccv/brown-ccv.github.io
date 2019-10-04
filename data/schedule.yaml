@@ -5,7 +5,7 @@ hpc:
       end: "3:30"
     speaker: Paul Hall
     title_affiliation: Senior Research Software Engineer, CCV
-  - title: Physics Informed Neural Network (PINN): A data parallel GPU based approach
+  - title: "Physics Informed Neural Network (PINN): A data parallel GPU based approach"
     time:
       start: "3:30"
       end: "3:50"
@@ -37,7 +37,7 @@ hpc:
     time:
       start: "4:50"
       end: "5:00"
-    speaker: Helen Kershaw
+    speaker: Paul Hall
     title_affiliation: Lead Research Software Engineer, CCV
     abstract: A summary of HPC resources available at Brown and beyond for research, educational and collaborative needs.  Machines, workshops, courses, consulting and more.
 
