@@ -26,13 +26,13 @@ hpc:
     speaker: Loren Albert
     title_affiliation: Voss Postdoctoral Research Associate, Institute at Brown for Environment and Society
     abstract:
-  - title: A demo of Arm DDT on Oscar
+  - title: Data Processing in the LUX Experiment
     time:
       start: "4:30"
       end: "4:50"
-    speaker: Helen Kershaw
-    title_affiliation: Lead Research Software Engineer, CCV
-    abstract: "Arm DDT is the debugger of choice for developing of C++, C or Fortran parallel, and threaded applications on CPUs, and GPUs. It's powerful intuitive graphical interface helps you easily detect memory bugs and divergent behavior at all scales, making Arm DDT the number one debugger in research, industry and academia."
+    speaker: Will Taylor
+    title_affiliation: Brown University/LUX Collaboration
+    abstract: The LUX detector was a dark matter search experiment which operated at the 4850 ft level of the Sanford Underground Research Facility (SURF). The experiment had a total operation time exceeding 3 years, during which time data was continuous transferred to Brown and processed in real time using the Oscar cluster. In total, LUX collected more than 500 TB of data, all of which was processed and reduced to analysis-ready features on Oscar. This talk will describe the details of the data handling and the strategies used to implement the processing scheme.
   - title: High-performance computing resources at Brown and beyond.
     time:
       start: "4:50"
