@@ -37,7 +37,7 @@ hpc:
     time:
       start: "4:50"
       end: "5:00"
-    speaker: Paul Hall
+    speaker: Helen Kershaw
     title_affiliation: Lead Research Software Engineer, CCV
     abstract: A summary of HPC resources available at Brown and beyond for research, educational and collaborative needs.  Machines, workshops, courses, consulting and more.
 
