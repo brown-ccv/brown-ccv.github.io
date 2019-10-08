@@ -154,4 +154,4 @@ reproducible_science:
       end: "4:45"
     speaker: Carsten Eickhoff (Panel), David Sheinberg (Panel), Isabel Restrepo(Intro)
     title_affiliation: (1) Assistant Professor of Medical Science, Assistant Professor of Computer Science.  (2) Professor of Neuroscience
-    abstract: TBD
+    abstract: "JupyterHub provides a convenient way to serve Jupyter Notebooks for multiple users with a pre-configured computing environment where users do not need to worry about installing any software packages. With the goal of lowering barriers to computing, various teams of CIS have worked together to make JupyterHub available for courses and workshops at Brown. In this talk, we will breifley introduce the service, it's history, and roadmap. We will follow witn a panel to learn directly from faculty about their experience using JupyterHub in the classroom"
