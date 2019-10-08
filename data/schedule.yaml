@@ -113,14 +113,14 @@ reproducible_science:
     speaker: Ashok Ragavendran
     title_affiliation: Lead Data Scientist, CCV
     abstract: TBD
-  - title: "Lightning Talk: Tools For Reproducible analysis"
+  - title: "Lightning Talk: Tools For Reproducible Analysis"
     time:
       start: "3:47"
       end: "3:54"
     speaker: August Guang
     title_affiliation: Genomics Data Scientist, CCV
     abstract: TBD
-  - title: "Lightning Talk: RefChef: Provenance of Genomic reference datasets"
+  - title: "Lightning Talk: RefChef: Provenance of Genomic Reference Datasets"
     time:
       start: "3:54"
       end: "4:00"
@@ -130,18 +130,18 @@ reproducible_science:
   - title: "Lightning Talk: Visualization for the Web"
     time:
       start: "4:00"
-      end: "4:10"
-    speaker: Mary McGrath
-    title_affiliation: Data Scientist, CCV
-    abstract: TBD
-  - title: "Lightening Talk: Visualizing CCV Publications"
+      end: "4:20"
+    speaker: Mary McGrath, Maura Driscoll and Rashi Dhar
+    title_affiliation: Data Scientist, CCV. Web Development Intern, CCV. Web Development Intern, CCV.
+    abstract: "The internet is a powerful medium for story telling with data (scientific and otherwise), but creating compelling, interactive graphics can be difficult. This talk will walk through a few approaches to creating compelling visualizations and publishing them to the web. We'll highlight the work of two CCV interns who have: Visualized CCV's publication data, and mapped CCV's collablorations across Brown."
+  - title: "Lightning Talk: Visualizing CCV Publications"
     time:
       start: "4:10"
       end: "4:20"
     speaker: Maura Driscoll
-    title_affiliation: Web Developer Intern, CCV
+    title_affiliation: Web Development Intern, CCV
     abstract: TBD
-  - title: "Lightening Talk: TBD"
+  - title: "Lightning Talk: TBD"
     time:
       start: "4:20"
       end: "4:30"
