@@ -113,7 +113,7 @@ reproducible_science:
     speaker: Ashok Ragavendran
     title_affiliation: Lead Data Scientist, CCV
     abstract: TBD
-- title: "Lightning Talk: Tools For Reproducible analysis"
+  - title: "Lightning Talk: Tools For Reproducible analysis"
     time:
       start: "3:47"
       end: "3:54"
@@ -148,7 +148,7 @@ reproducible_science:
     speaker: Nicole Provenza and Fernando Gelin
     title_affiliation: PhD Student - Neuromotion Laboratory. Research Software Engineer, CCV 
     abstract: TBD
-  - title: "Reproducibility in the classroom with Jupyter Hub and GitHub Classroom. Introduction and Faculty Pannel
+  - title: Reproducibility in the classroom with Jupyter Hub and GitHub Classroom. Introduction and Faculty Pannel
     time:
       start: "4:30"
       end: "4:45"
