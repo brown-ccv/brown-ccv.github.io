@@ -148,10 +148,10 @@ reproducible_science:
     speaker: Nicole Provenza and Fernando Gelin
     title_affiliation: PhD Student - Neuromotion Laboratory. Research Software Engineer, CCV 
     abstract: TBD
-	- title: "Reproducibility in the classroom with Jupyter Hub and GitHub Classroom. Introduction and Faculty Pannel
-	    time:
-	      start: "4:30"
-	      end: "4:45"
-	    speaker: Carsten Eickhoff (Panel), David Sheinberg (Panel), Isabel Restrepo(Intro)
-	    title_affiliation: (1) Assistant Professor of Medical Science, Assistant Professor of Computer Science.  (2) Professor of Neuroscience
-	    abstract: TBD
+  - title: "Reproducibility in the classroom with Jupyter Hub and GitHub Classroom. Introduction and Faculty Pannel
+    time:
+      start: "4:30"
+      end: "4:45"
+    speaker: Carsten Eickhoff (Panel), David Sheinberg (Panel), Isabel Restrepo(Intro)
+    title_affiliation: (1) Assistant Professor of Medical Science, Assistant Professor of Computer Science.  (2) Professor of Neuroscience
+    abstract: TBD
