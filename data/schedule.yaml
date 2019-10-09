@@ -12,7 +12,7 @@ hpc:
     speaker: Raj Shukla
     title_affiliation: Research Software Engineer, CCV
     abstract: Physical phenomena such as fluid flow, wave propagation, heat flow, quantum-mechanical system etc. are defined by partial differential equations (PDEs). To simulate these phenomena its essential to solve these  PDEs using numerical discretization. Numerical discretization is very complex and suffers the curse of dimensionality and meshes. Thanks to Physics Informed Neural Network (PINN) for circumventing these problems. In this work, we show the efficiency of data parallel model, implemented over GPUs, to overcome the computational complexity of PINN models.
-  - title: Demystifying the gut microbiome with metagenomics
+  - title: Demystifying the Gut Microbiome with Metagenomics
     time:
       start: "3:50"
       end: "4:10"
@@ -33,7 +33,7 @@ hpc:
     speaker: Will Taylor
     title_affiliation: Brown University/LUX Collaboration
     abstract: The LUX detector was a dark matter search experiment which operated at the 4850 ft level of the Sanford Underground Research Facility (SURF). The experiment had a total operation time exceeding 3 years, during which time data was continuous transferred to Brown and processed in real time using the Oscar cluster. In total, LUX collected more than 500 TB of data, all of which was processed and reduced to analysis-ready features on Oscar. This talk will describe the details of the data handling and the strategies used to implement the processing scheme.
-  - title: High-performance computing resources at Brown and beyond.
+  - title: High-performance Computing Resources at Brown and Beyond.
     time:
       start: "4:50"
       end: "5:00"
@@ -64,14 +64,14 @@ data_science:
       end: "3:20"
     speaker: Paul Stey
     title_affiliation: Director of Data Science and Scientific Computing, CCV
-  - title: Identification of multi-nucleated germ cells, a marker of phthalate toxicity
+  - title: Identification of Multi-Nucleated Germ Cells, a Marker of Phthalate Toxicity
     time:
       start: "3:20"
       end: "3:50"
     speaker: Prof. Daniel Spade
     title_affiliation: Assistant Professor, Pathology & Laboratory Medicine, Brown University
     abstract: "Phthalate esters (phthalates) are a class of compounds used to plasticize polyvinyl chloride and as components of various industrial and personal care products. Human exposure to phthalates is nearly universal, and phthalates are known male reproductive toxicants, which creates a concern for human health. Testicular toxicity of phthalates is complex, involving both anti-androgenic effects and impairment of testis morphogenesis. Effects on testis morphogenesis are more difficult and time-consuming to quantify than anti-androgenic effects, and as a result are not factored into risk assessment for phthalates. To address this problem, we sought to develop a method for automatic identification of multinucleated germ cells (MNGs), a marker of phthalate toxicity, in digital images of fetal rat histological sections."
-  - title: Biologically annotated neural networks for multi-scale genomic discovery in genome-wide association studies
+  - title: Biologically Annotated Neural Networks for Multi-Scale Genomic Discovery in Genome-Wide Association Studies
     time:
       start: "3:50"
       end: "4:20"
@@ -87,13 +87,13 @@ data_science:
     abstract: "Natural Language Processing (NLP) concerns the interactions between computers and human languages. Natural languages contain huge amounts of information, from the topics we talk/write about and our tone to the words we choose and their context. Because of their complexity, volume, and unstructured format, text data are messy and tricky to manipulate. This Python tutorial walks through basic steps in text processing. We will work with a sample corpus of documents and prepare it for downstream NLP tasks such as document classification and topic modeling. Topics covered include: text cleaning and normalization, stemming and lemmatization, bag of words, and n-grams."
 
 reproducible_science:
-  - title: CCVCon Opening Remarks
+  - title: CCV-Con Opening Remarks
     time:
       start: "3:10"
       end: "3:15"
     speaker: Paul Stey
     title_affiliation: Director of Data Science and Scientific Computing, CCV
-  - title: Welcome remarks to session
+  - title: Session Intro and Welcome
     time:
       start: "3:15"
       end: "3:20"
@@ -106,7 +106,7 @@ reproducible_science:
     speaker: Brad Roarr
     title_affiliation:  Senior Web Developer, CIS
     abstract: "TBD"
-  - title: "Lightning Talk: Reproducible bioinformatics with Bioflows"
+  - title: "Lightning Talk: Reproducible Bioinformatics with Bioflows"
     time:
       start: "3:40"
       end: "3:50"
@@ -141,7 +141,7 @@ reproducible_science:
     speaker: Nicole Provenza and Fernando Gelin
     title_affiliation: PhD Student - Neuromotion Laboratory. Research Software Engineer, CCV 
     abstract: TBD
-  - title: Reproducibility in the classroom with Jupyter Hub and GitHub Classroom. Introduction and Faculty Pannel
+  - title: Reproducibility in the Classroom with Jupyter Hub and GitHub Classroom. Introduction and Faculty Panel
     time:
       start: "4:30"
       end: "4:45"
