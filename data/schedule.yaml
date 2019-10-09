@@ -109,38 +109,31 @@ reproducible_science:
   - title: "Lightning Talk: Reproducible bioinformatics with Bioflows"
     time:
       start: "3:40"
-      end: "3:46"
+      end: "3:50"
     speaker: Ashok Ragavendran
     title_affiliation: Lead Data Scientist, CCV
     abstract: TBD
   - title: "Lightning Talk: Tools For Reproducible Analysis"
     time:
-      start: "3:47"
-      end: "3:54"
+      start: "3:50"
+      end: "4:00"
     speaker: August Guang
     title_affiliation: Genomics Data Scientist, CCV
     abstract: TBD
   - title: "Lightning Talk: RefChef: Provenance of Genomic Reference Datasets"
     time:
-      start: "3:54"
-      end: "4:00"
+      start: "4:00"
+      end: "4:10"
     speaker: Joselyn Wallace
     title_affiliation: Genomics Data Scientist, CCV
     abstract: "Over the last 18 years, the approximate total cost of sequencing a genome has dropped from $100,000,000 to $1,000, leading to a dramatic growth of the field of genomics and its many other 'omics sequencing offshoots. The increased access to large amounts of sequencing data has created a new set of challenges around best practices for storage, management, and sharing of data. Here, we present RefChef -- a reference sequence management system to record the provenance of reference sequences, indices, annotations, and their associated metadata. RefChef uses a master yaml file to store references' metadata and the commands to download and process them, while Git (and optionally GitHub) version control is used to track changes to the master yaml file as new references are added. RefChef also allows users to view summary tables of available references, which can be viewed either inside the command line or can be hosted on an external website easily accessible to collaborators. RefChef helps researchers adhere to data management plans, makes research more reproducible, and saves valuable time and space on computing resources by facilitating the maintenance of clearly documented, communal reference sequences for research groups."
   - title: "Lightning Talk: Visualization for the Web"
     time:
-      start: "4:00"
-      end: "4:20"
-    speaker: Mary McGrath, Maura Driscoll and Rashi Dhar
-    title_affiliation: Data Scientist, CCV. Web Development Intern, CCV. Web Development Intern, CCV.
-    abstract: "The internet is a powerful medium for story telling with data (scientific and otherwise), but creating compelling, interactive graphics can be difficult. This talk will walk through a few approaches to creating compelling visualizations and publishing them to the web. We'll highlight the work of two CCV interns who have: Visualized CCV's publication data, and mapped CCV's collablorations across Brown."
-  - title: "Lightning Talk: Visualizing CCV Publications"
-    time:
       start: "4:10"
       end: "4:20"
-    speaker: Maura Driscoll
-    title_affiliation: Web Development Intern, CCV
-    abstract: TBD
+    speaker: Mary McGrath and Maura Driscoll
+    title_affiliation: Data Scientist, CCV. Web Development Intern, CCV. Web Development Intern, CCV.
+    abstract: "The internet is a powerful medium for story telling with data (scientific and otherwise), but creating compelling, interactive graphics can be difficult. This talk will walk through a few approaches to creating compelling visualizations and publishing them to the web. We'll highlight the work of one of our CCV interns who has visualized CCV's publication data."
   - title: "Lightning Talk: TBD"
     time:
       start: "4:20"
