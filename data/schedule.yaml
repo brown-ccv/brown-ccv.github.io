@@ -119,7 +119,7 @@ reproducible_science:
       end: "4:00"
     speaker: August Guang
     title_affiliation: Genomics Data Scientist, CCV
-    abstract: TBD
+    abstract: "We can all agree that reproducible analyses are incredibly important, but that it is not widely practiced. However, computational tools that enable reproducible research while integrating with exploratory data analysis are more widespread and easier to use than ever. I will talk about some of these tools and general guidelines for how to make your research workflow reproducible without hindering your workflow."
   - title: "Lightning Talk: RefChef: Provenance of Genomic Reference Datasets"
     time:
       start: "4:00"
