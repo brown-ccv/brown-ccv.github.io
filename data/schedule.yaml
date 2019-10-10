@@ -19,13 +19,13 @@ hpc:
     speaker: Swathi Penumutchu
     title_affiliation: Ph.D. Candidate, Pathobiology, MMI Department, Brown University
     abstract: Using metagenomic pipelines to study fiber prebiotics and their potential to alleviate antibiotic-induced microbiome dysbiosis.
-  - title: TBD
+  - title: All the colors we cannot see: probing plant physiology with imaging spectroscopy
     time:
       start: "4:10"
       end: "4:30"
     speaker: Loren Albert
     title_affiliation: Voss Postdoctoral Research Associate, Institute at Brown for Environment and Society
-    abstract:
+    abstract: Plants feed the world, drive the carbon cycle, and create habitat, but traditional methods of studying plant biology are slow and low throughput. Imaging spectroscopy—in which each pixel of an image acquires a spectrum instead of just three bands of RGB— may advance our capacity to study plant physiology and function. However, imaging spectroscopy presents new challenges in wrangling and processing big data.
   - title: Data Processing in the LUX Experiment
     time:
       start: "4:30"
