@@ -6,14 +6,17 @@
   <div class="session">
     <p class="time badge bg-secondary">{{if eq .time "Thursday, October 31" }}<span class="fad fa-ghost pr-2"></span>{{else}}<span class="fad fa-calendar-day pr-2"></span>{{end}}{{.time}}</p>
     <small><span class="fad fa-{{.fa}} pr-2"></span>{{.swag | markdownify }}</small>
-    <a href="{{$.Site.BaseURL}}/schedule/{{ $dow | urlize }}">
 
     <p>{{ .session }}</p>
     <p class="small">
       {{ if eq .time "Friday, November 1"}}{{else}}Session chair:{{end}}
-      {{ .speaker }}</p>
-    </a>
-
+      {{ .speaker }}
+    </p>
+    <p class="sched-link">
+      <a class="d-flex flex-row align-items-center" href="{{$.Site.BaseURL}}/schedule/{{ $dow | urlize }}">
+        <span>Details</span><span class="fal fa-chevron-right ml-2"></span>
+      </a>
+    </p>
     </div>
   {{ end }}
 

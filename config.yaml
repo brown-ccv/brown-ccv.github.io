@@ -19,7 +19,7 @@ params:
     location:
       building: Data Science Initiative - 164 Angell Street, 3rd Floor, Brown University
       city: Providence, RI
-    note: "<i class='fad fa-cookie'></i> <i class='fad fa-glass-citrus'></i> Light snacks and beverages will be served every day at 3pm. <br><i class='fad fa-cocktail'></i> <i class='fad fa-cheese'></i> There will be a reception after the keynote on Friday November 1st. <br><i class='fad fa-shopping-bag'></i>  The first 50 people to arrive will get a swag of the day (see below)."
+    note: "<i class='fad fa-cookie'></i> <i class='fad fa-glass-citrus'></i> Light snacks and beverages will be served every day at 3pm. <br><i class='fad fa-cocktail'></i> <i class='fad fa-cheese'></i> There will be a reception after the keynote on Friday November 1st, open to all attendees. <br><i class='fad fa-shopping-bag'></i>  The first 50 people to arrive will get a swag of the day (see below)."
   program:
     - time: Monday, October 28
       session: Reproducible Science + CCV Showcase
@@ -27,7 +27,7 @@ params:
       speaker: Isabel Restrepo
       swag: "Moleskine<sup class='reg'>&#9415;</sup> notebook"
       fa: book
-    - time: Tuesday, October 29 
+    - time: Tuesday, October 29
       session: Research Infrastructure + Visualization
       title: Research Infrastructure + Visualization
       speaker: Mete Tunca, Ben Knörlein
@@ -46,8 +46,8 @@ params:
       swag: hat
       fa: hat-wizard
     - time: Friday, November 1
-      session: Not Just Oscar Panel + Keynote
-      title: Not Just Oscar Panel + Keynote + Reception
+      session: But also Oscar + Keynote
+      title: But also Oscar + Keynote + Reception
       speaker: Linnea Wolfe, Mete Tunca, Paul Stey.
       swag: mug
       fa: mug

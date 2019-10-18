@@ -69,3 +69,10 @@ small {
   @extend .text-secondary;
   font-size: 1.3 * $base-font-size;
 }
+
+.sched-link {
+  a {
+    color: $ttl3 !important;
+    font-size: 1.4rem;
+  }
+}

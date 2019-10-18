@@ -17,7 +17,7 @@
         <p class="h1">{{.title}}</p>
         <p class="speaker">{{ .speaker | markdownify }}  </p>
         <span class="affiliation">{{.title_affiliation}}</span>
-        <p class="abstract">{{.abstract}}</p>
+        <p class="abstract">{{.abstract | markdownify }}</p>
       </div>
     </div>
     {{ end }}
