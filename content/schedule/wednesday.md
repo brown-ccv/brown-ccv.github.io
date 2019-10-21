@@ -26,12 +26,12 @@ talks:
   speaker: Pinar Demetci
   title_affiliation:  Computational Biology PhD student in the Crawford Lab
   abstract: "Genome-wide association (GWA) studies have provided compelling genetic associations for human complex traits and diseases, contributing to therapeutic target discovery and disease risk prediction. Unfortunately, associations discovered by current GWA methods only explain a modest proportion of the estimated heritability of these traits. Non-linear genetic effects have been proposed as a key contributor to this missing heritability problem."
-- title: NLP Basics in Python Using sklearn and nltk
+- title: Is this a tipping point or am I just biased?
   time:
     start: "4:20"
     end: "5:00"
-  speaker: Ashley Lee
-  title_affiliation: Senior Data Scientist, CCV
-  abstract: "Natural Language Processing (NLP) concerns the interactions between computers and human languages. Natural languages contain huge amounts of information, from the topics we talk/write about and our tone to the words we choose and their context. Because of their complexity, volume, and unstructured format, text data are messy and tricky to manipulate. This Python tutorial walks through basic steps in text processing. We will work with a sample corpus of documents and prepare it for downstream NLP tasks such as document classification and topic modeling. Topics covered include: text cleaning and normalization, stemming and lemmatization, bag of words, and n-grams."
+  speaker: August Guang
+  title_affiliation: Genomics Data Scientist, CCV
+  abstract: "The term “tipping point” has become part of everyday English language, used to describe any kind of dramatic shift from which there is no return. However, actually defining and predicting a tipping point is extremely difficult, with the phenomenon often only becoming apparent post-hoc. Nevertheless, organizations make policy decisions based on the consequences of perceived tipping points. In light of this, we sought to understand: what characteristics make an individual more or less likely to declare a tipping point? Using logistic and random forest regression on survey data from 178 undergraduate and graduate students, we find that the perception of tipping points is primarily dependent on the characteristics of the graph, and secondarily on their own experience or emotions about tipping points. These conclusions have implications for management and sensemaking of perceived tipping points."
 
 ---
