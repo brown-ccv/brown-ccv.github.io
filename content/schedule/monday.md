@@ -22,16 +22,16 @@ talks:
     time:
       start: "3:20"
       end: "3:40"
-    speaker: Brad Roarr
+    speaker: Bradford Roarr
     title_affiliation:  Senior Web Developer, CIS
-    abstract:
+    abstract: "An overview of software reproducibility with a focus on containers. Learn to avoid common pitfalls and leverage lesser used features when building containers."
   - title: "Lightning Talk: Reproducible bioinformatics with Bioflows"
     time:
       start: "3:40"
       end: "3:50"
     speaker: Ashok Ragavedran
     title_affiliation: Lead Data Scientist, CCV
-    abstract:
+    abstract: "Reproducibility of computational analysis is fast becoming the norm and bioinformatics analysis of Next-Gene Sequencing data is no exception. We present bioflows, a tool for reproducible bioinformatics workflows that serves a heterogenous user base, ranging from basic to advanced computational skills.  Workflows are defined by a YAML interface, which allows for submitting jobs on OSCAR with explicitly defined dependencies. All the necessary tools associated with bioflows are provided as  CONDA packages, making it a self contained environment for running the workflow and easy to install. We will provide a quick overview of the current features."
   - title: "Lightning Talk: Tools For Reproducible Analysis"
     time:
       start: "3:50"
