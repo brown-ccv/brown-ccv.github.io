@@ -43,7 +43,7 @@ talks:
     time:
       start: "4:00"
       end: "4:10"
-    speaker: Joselyn Wallace
+    speaker: Joselynn Wallace
     title_affiliation: Genomics Data Scientist, CCV
     abstract: "Over the last 18 years, the approximate total cost of sequencing a genome has dropped from $100,000,000 to $1,000, leading to a dramatic growth of the field of genomics and its many other 'omics sequencing offshoots. The increased access to large amounts of sequencing data has created a new set of challenges around best practices for storage, management, and sharing of data. Here, we present RefChef -- a reference sequence management system to record the provenance of reference sequences, indices, annotations, and their associated metadata. RefChef uses a master yaml file to store references' metadata and the commands to download and process them, while Git (and optionally GitHub) version control is used to track changes to the master yaml file as new references are added. RefChef also allows users to view summary tables of available references, which can be viewed either inside the command line or can be hosted on an external website easily accessible to collaborators. RefChef helps researchers adhere to data management plans, makes research more reproducible, and saves valuable time and space on computing resources by facilitating the maintenance of clearly documented, communal reference sequences for research groups."
   - title: "Lightning Talk: Visualization and Web Intro"
@@ -66,7 +66,7 @@ talks:
       end: "4:45"
     speaker: Carsten Eickhoff <sup>1</sup>, David Sheinberg <sup>2</sup>, Isabel Restrepo (Moderator)<sup>3</sup>
     title_affiliation: 1. Assistant Professor of Medical Science, Assistant Professor of Computer Science 2. Professor of Neuroscience 3. Lead Data Scientist, CCV
-    abstract: "JupyterHub provides a convenient way to serve Jupyter Notebooks for multiple users with a pre-configured computing environment where users do not need to worry about installing any software packages. With the goal of lowering barriers to computing, various teams of CIS have worked together to make JupyterHub available for courses and workshops at Brown. In this talk, we will breifley introduce the service, it's history, and roadmap. We will follow witn a panel to learn directly from faculty about their experience using JupyterHub in the classroom"
+    abstract: "JupyterHub provides a convenient way to serve Jupyter Notebooks for multiple users with a pre-configured computing environment where users do not need to worry about installing any software packages. With the goal of lowering barriers to computing, various teams of CIS have worked together to make JupyterHub available for courses and workshops at Brown. In this talk, we will briefly introduce the service, it's history, and roadmap. We will follow with a panel to learn directly from faculty about their experience using JupyterHub in the classroom"
   - title: CCV Showcase
     speaker: Thomas Serre <sup>1</sup>, Paul Stey <sup>2</sup>, Linnea Wolfe <sup>3</sup>, Jill Pipher<sup>4</sup>
     time:

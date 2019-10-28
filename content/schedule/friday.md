@@ -20,7 +20,7 @@ talks:
     end: "3:35"
   title_affiliation: Assistant Director of Operations, CCV
 - title: "Keynote: Computing and Visualizing Genes as Environments"
-  speaker: David Rand
+  speaker: Prof. David Rand
   time:
     start: "3:35"
     end: "4:15"
