@@ -2,7 +2,7 @@
 title: "Friday"
 date: 2019-10-03T10:01:15-04:00
 draft: false
-day: October 28th
+day: November 1st
 draft: false
 session: "Keynote"
 chairs: Paul Stey
