@@ -18,7 +18,7 @@ talks:
   time:
     start: "3:20"
     end: "3:35"
-  title_affiliation: Assistant Director of Operations, CCV
+  title_affiliation: Associate Director, HPC Systems
 - title: "Keynote: Computing and Visualizing Genes as Environments"
   speaker: Prof. David Rand
   time:
@@ -31,7 +31,7 @@ talks:
   time:
     start: "4:15"
     end: "4:45"
-  title_affiliation:  1. Director of Operations, CCV 2. Director of Scientific Computing and Data Science, CCV 3. Assistant Director of Cloud and Research Computing, CCV
+  title_affiliation:  1. Assistant CIO, Infrastructure and Research Computing 2. Director of Scientific Computing and Data Science, CCV 3. Assistant Director of Cloud and Research Computing, CCV
 - title: Reception
   time:
     start: "4:45"
